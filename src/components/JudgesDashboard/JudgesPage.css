@@ -1,0 +1,55 @@
+/* JudgesPage.css */
+
+.rating-dialog {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .rating-dialog h2 {
+    margin-top: 0;
+  }
+  
+  .rating-dialog table {
+    width: 100%;
+  }
+  
+  .rating-dialog td {
+    padding: 5px;
+  }
+  
+  .rating-dialog button {
+    margin-top: 10px;
+  }
+  
+  .idea-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .idea-card h2 {
+    margin-top: 0;
+  }
+  
+  .idea-card p {
+    margin-bottom: 10px;
+  }
+  
+  .idea-card a {
+    color: black;
+  }
+  
+  .idea-card a:hover {
+    text-decoration: underline;
+  }
+  

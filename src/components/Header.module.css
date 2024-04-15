@@ -1,0 +1,90 @@
+/* Header.module.css */
+.header {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #ff8400, #FFFFFF,white); 
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure the header appears above other content */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hackathon {
+    flex: 1; /* Hackathon takes up remaining space */
+  }
+  
+  .hackathon a{
+    color: white;
+    text-decoration: none;
+  }
+  .homeLink a,
+  .loginRegister a {
+    color: #ff8400;
+    text-decoration: none;
+  }
+  
+  .rightLinks {
+    display: flex;
+  }
+  
+  .homeLink,
+  .loginRegister {
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+
+  .hackathon {
+    flex: 1; /* Hackathon takes up remaining space */
+    display: flex;
+    align-items: center;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    margin-right: 20px; /* Adjust spacing between hackathon and hamburger */
+  }
+  
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s; /* Add animation transition */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobileMenu a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s; /* Add hover transition */
+  }
+  
+  .mobileMenu a:hover {
+    background-color: #ff8400; /* Change background color on hover */
+  }
+
+  .loginRegister button {
+    background-color: transparent;
+    border: 2px solid #ff8400; /* Orange border */
+    color: #ff8400; /* Orange text color */
+    padding: 8px 16px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effects */
+  }
+
+  .loginRegister button:hover {
+    background-color: #ff8400; /* Orange background color on hover */
+    color: white; /* White text color on hover */
+  }

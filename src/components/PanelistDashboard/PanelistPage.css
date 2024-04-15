@@ -1,0 +1,67 @@
+/* Styles for PanelistPage */
+.panelist-page {
+    width: 70%; /* Set the width of the panelist page */
+    margin: 0 auto; /* Center the panelist page horizontally */
+  }
+  
+  /* Styles for Card */
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Background color of the card */
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-bottom: 5px;
+  }
+  
+  .card strong {
+    font-weight: bold;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+  }
+  
+  .card a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
+  /* Styles for Dialog */
+  .dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .dialog-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .dialog-content p {
+    margin-bottom: 10px;
+  }
+  
+  .dialog-content button {
+    margin-right: 10px;
+  }
+  

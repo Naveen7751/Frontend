@@ -1,0 +1,206 @@
+/* Homepage.module.css */
+.heroSection {
+  position: relative;
+  height: 500px;
+  /* Adjust as needed */
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottomNav {
+  width: 70vw;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottomNav ul {
+  gap: 15vh;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+/* .bottomNav ul li {
+    margin: 0 10px;
+  } */
+
+.bottomNav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.bottomNav ul li a:hover {
+  color: #ff8400;
+}
+
+.bottomNav:after {
+  content: '';
+  /* Add content */
+  display: block;
+  /* Display as block */
+  position: absolute;
+  /* Position absolutely */
+  bottom: -1px;
+  /* Place it just below the navigation bar */
+  left: 0;
+  /* Align it to the left */
+  width: 100%;
+  /* Make it full width */
+  height: 2px;
+  /* Set the height of the line */
+  background-color: #ff8400;
+  /* Set the color of the line */
+}
+
+.sectionsContainer {
+  margin-top: 100px;
+  /* Adjust as needed to provide space below the bottom nav bar */
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionsContainer section {
+  width: 100vw;
+  height: 86vh;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  /* display: flex; */
+  align-self: center;
+  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.sectionsContainer section .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionsContainer section .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.sectionsContainer section h2 {
+  /* align-self: baseline; */
+  width: 100%;
+}
+
+.sectionsContainer .panelists {
+  width: 80vw;
+  display: grid;
+  grid-template-rows: 16vh auto;
+  align-items: center;
+}
+
+.sectionsContainer .panelists div {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 80vw;
+  justify-self: center;
+}
+
+.sectionsContainer .panelists div ul li {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.sectionsContainer .panelists div ul li div {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.blackBackground {
+  background-color: #3C4142;
+  color: #fff;
+  height: 100vh;
+}
+
+.blackBackground h2 {
+  color: #ff8400;
+}
+
+.content_left {
+  display: flex;
+  margin: 50px;
+  padding: 50px;
+  color: red;
+}
+
+.details {
+  display: flex;
+}
+
+.image{
+  transform: scale(0.4); /* Initial scale */
+  transition: transform 1s;
+}
+
+section .animated{
+  transform: scale(1); 
+  /* animation: image 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear; */
+}
+
+.head{
+  transform: skewY(10deg); /* Initial scale */
+  transition: transform 1s;
+}
+
+section .animatedh{
+  transform: skewY(0deg); 
+}
+
+/* section span{
+  transform: skewY(0deg) !important; 
+  animation-delay: 1s;
+  animation: hr 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+} */
+
+section .animatedspan{
+  transform: skewY(0deg) !important; 
+  animation-delay: 1s;
+  animation: hr 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes hr {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.p{
+  transform: translate(0px,40%);
+  transition: transform 1s;
+}
+
+section .animatedp{
+  transform: skewY(0deg); 
+
+}
